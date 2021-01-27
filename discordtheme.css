@@ -186,10 +186,10 @@
 .unreadBottom-1_LF_w { width: 100%; height: 15px; padding: 0;}
 
 /* Top - Ping */
-.unreadTop-3rAB3r > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#f04747, #0000);}
+.unreadTop-3rAB3r > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#1cc94a, #0000);}
 
 /* Bottom - Ping */
-.unreadBottom-1_LF_w > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#0000, #f04747);}
+.unreadBottom-1_LF_w > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#0000, #1cc94a);}
 
 /* Top - Nouveaux messages */
 .unreadTop-3rAB3r > .unreadBar-3t3sYc.unread-1xRYoj { border-radius: 0; background: linear-gradient(#667BC3, #0000);}
