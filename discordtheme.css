@@ -549,7 +549,7 @@
 }
 
 /* -- scrollbars-- */
-::-webkit-scrollbar { display: block !important;}
+::-webkit-scrollbar { display: block !important;background: var(--background-tertiary) !important;}
 
 /* Notes popups */
 .note-3HfJZ5 { margin-right: 0; }
