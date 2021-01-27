@@ -3,32 +3,33 @@
 /* USRBG */
 @import url('https://discord-custom-covers.github.io/usrbg/dist/usrbg.css');
 
-/* Collone amis */
+/* Friends list main column*/
 .peopleColumn-29fq28 { background: var(--background-primary);}
 
-/* Appel amis */
+/* calling friends - probably needs right res pic */
 .primaryDark-3mSFDl {background: var(--background-secondary-alt) !important;}
 
-/* Selecteur région appel amis */
+/* select region when calling friends */
 .regionSelectPopout-p9-0_W { background: var(--background-secondary-alt) !important;}
 .quickSelect-3BxO0K { margin-top: 10px;}
 
-/* Activité amis */
+/* Friend activity - hover*/
 .itemCard-v9viV7.active-1xchHY, .itemCard-v9viV7:hover, .popout-38lTFE { background: var(--background-tertiary) !important;}
+/* no clue */
 .wrapper-3Rixsz:hover, .memberListItem-31QoHj:hover, .body-1ld4H7 { background: var(--background-secondary-alt) !important;}
 
 /* --- 📜 PARTIE LISTE SERVEURS --- */
 
-/* Liste serveur */
+/* server list */
 .base-3dtUhz { left: 80px; }
 .wrapper-1Rf91z { width: 80px; margin-bottom: 63px;}
 .scroller-2TZvBN { padding-bottom: 56px;}
 
-/* Serveurs */
+/* servers */
 .listItem-2P_4kh { padding: 0 0 10px; margin: 0px;}
 .wrapper-21YSNc, .listItem-2P_4kh { width: auto; }
 
-/* Dossiers */
+/* files */
 .wrapper-21YSNc > ul { height: auto !important;}
 .expandedFolderBackground-2sPsd- { width: 56px;}
 
@@ -59,13 +60,14 @@
 .customText-tY5LJn { font-size: 15px; }
 .customEmojiPlaceholder-37iZ_j { background-image: url(https://i.ibb.co/hVKW6Xs/e.png);}
 
+/*when hovering statuses*/
 #status-picker-online.focused-3afm-j { background-color: #43b5829f;}
 #status-picker-idle.focused-3afm-j { background-color: #faa81a96;}
 #status-picker-dnd.focused-3afm-j { background-color: #b83a3ca6;}
 #status-picker-invisible.focused-3afm-j { background-color: #747f8da4;}
 #status-picker-custom-status.focused-3afm-j { background-color: #ffcd4d69;}
 
-/* Status personnalisé */
+/* custom status background */
 .footer-2gL1pp { background: var(--background-tertiary) !important;}
 
 /* Avatar */
@@ -76,7 +78,7 @@
 }  
 .avatarWrapper-2yR4wp > .avatar-SmRMf2.wrapper-3t9DeA { padding: 3px; }
 
-/* Spotify */
+/* Spotify popout */
 .container-6sXIoE {
     position: fixed;
     transition: left 0.5s;
@@ -104,10 +106,15 @@
     mask-image: linear-gradient(0.25turn, #0009, #0003);
 }
 .maximized-vv2Wr0 > .timeline-UWmgAx > .bar-g2ZMIm { height: 84px !important; }
+/*bar fill*/
 .barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}
 .inner-WRV6k5 { z-index: 1 !important;}
 .grabber-7sd5f5 { display: none !important;}
+
+/*test later*/
 .button-14-BFJ:hover { background: none !important;}
+/*test later*/
+
 .container-6sXIoE:not(.maximized-vv2Wr0) > .inner-WRV6k5 > .coverWrapper-YAplwJ { 
     margin-right: 1px !important; 
     margin-left:25px !important;
@@ -115,7 +122,7 @@
     height: 40px !important;
 }
 
-/* Jeux */
+/* games? */
 .panel-24C3ux {
     position: fixed;
     transition: left 0.5s;
@@ -133,7 +140,7 @@
 .info-WdNIDE { margin-right: 8px;}
 .gameIcon-gg34Dz { width: 40px !important; height: 40px !important; }
 
-/* Notification de mention */
+/* mention notifs */
 
 /* Top */
 .unreadMentionsIndicatorTop-gA6RCh { width: 100%; height: 50px; padding: 0; top: -7px;}
@@ -156,7 +163,7 @@
 
 /* --- ✏️ PARTIE SALONS --- */
 
-/* Boutons utilisateur */  
+/* user buttons */  
 .panels-j1Uci_ > .container-3baos1 > .flex-1xMQg5 {
     width: 100%;
     flex-direction: row-reverse;
@@ -166,17 +173,17 @@
 .container-3baos1 > .flex-1xMQg5 > .button-14-BFJ { color: var(--user-buttons-color);}
 .st0 { fill: var(--user-buttons-color) !important;}
 
-/* Supprime le fond du panel utilisateur */
+/* removes the user panel background */
 .panels-j1Uci_ > .container-3baos1 > .nameTag-3uD-yy { display: none;}
 
-/* Flèche catégeories */
+/* catagory arrow */
 .mainContent-2h-GEV > .arrow-gKvcEx { display: none; }
 
-/* Ajout rôle permissions salon */
+/* role perms */
 .header-2bNvm4 { background: var(--background-secondary-alt) !important; }
 .sectionTag-pXyto9 { background: var(--background-secondary) !important; }
 
-/* Notification */
+/* Notifications */
 
 /* Top */
 .container-1taM1r {  background: var(--background-secondary) !important; z-index: 3;}
@@ -191,25 +198,25 @@
 /* Bottom - Ping */
 .unreadBottom-1_LF_w > .unreadBar-3t3sYc.mention-1f5kbO { border-radius: 0; background: linear-gradient(#0000, #f04747);}
 
-/* Top - Nouveaux messages */
+/* Top - new messages */
 .unreadTop-3rAB3r > .unreadBar-3t3sYc.unread-1xRYoj { border-radius: 0; background: linear-gradient(#667BC3, #0000);}
 
-/* Bottom - Nouveaux messages */
+/* Bottom - new messages */
 .unreadBottom-1_LF_w > .unreadBar-3t3sYc.unread-1xRYoj { border-radius: 0; background: linear-gradient(#0000, #667BC3);}
 
 .unreadBar-3t3sYc > .text-2e2ZyG { display: none; }
 
 /* --- 💬 PARTIE TCHAT --- */
 
-/* Barre du salon */
+/* some random discord msg */
 .container-1r6BKw { background: var(--background-secondary) !important; }
 .children-19S4PO:after { display: none;}
 [href="https://support.discord.com"] { display: none;}
 
-/* Barre "Echec de chargement des messages */
+/* discord failed msg */
 .messagesErrorBar-nyJGU7 { border-radius: 100px; padding-bottom: 0; margin-bottom: 5px;}
 
-/* Nouveaux messages */
+/* new messages */
 .newMessagesBar-265mhP { background-color: #6e85d3; border-radius: 50px; margin-top: 5px; }
 
 /* Mentions */
@@ -217,10 +224,10 @@
 .mentioned-xhSam7 { background-color: var(--mention-color-background);}
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover { background-color: var(--mention-color-hover);}
 
-/* Bouton 'Suivre' */
+/* follow button? */
 .children-19S4PO > .followButton-L6L-Us { background: var(--background-secondary-alt); }
 
-/* Revenir aux messages récents */
+/* recent msgs */
 .jumpToPresentBar-G1R9s6, .jumpToPresentBar-G1R9s6:active { margin-bottom: 13px; border-radius: 50px; padding: 0;}
 
 /* Menu # ou @ */
@@ -240,7 +247,7 @@
 .buttonWrapper-1ZmCpA, .icon-3D60ES { color: var(--chat-buttons) !important; }
 .colorGrey-2DXtkV { background: var(--chat-buttons); }
 
-/* Barre de recherche */
+/* search bar */
 .container-3ayLPN, .searchAnswer-3Dz2-q, .searchFilter-2ESiM3, .react-datepicker, .react-datepicker__header { background: var(--background-primary) !important;}
 .react-datepicker__day { background: var(--background-secondary) !important;}
 .react-datepicker__day:hover, .focused-2bY0OD { background: var(--background-secondary-alt) !important;}
@@ -283,7 +290,7 @@
     z-index: -1;
 }
 
-/* - Popup agrandie d'un membre - */
+/* - bigger Popup d'un membre - */
 .header-QKLPzZ { flex-direction: column;}
 .header-QKLPzZ > .avatar-3EQepX { margin-right: 0 !important;}
 .headerInfo-30uryT { padding: 15px 0 5px 0;}
@@ -293,7 +300,7 @@
 .additionalActionsIcon-1FoUlE { transform: rotate(90deg); margin: 10px 0 0 0;}
 .activity-1ythUs:not(.activityProfile-2bJRaP ) { padding-top: 0; text-align: center;}
 
-/* Meilleur avatar dans les popouts */
+/* best avatar dans les popouts */
 .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 > .pointerEvents-2zdfdO { display: var(--popout-status-icon); }
 .header-QKLPzZ > .wrapper-3t9DeA > .mask-1l8v16 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
 .header-QKLPzZ > .wrapper-3t9DeA > .avatarHint-1qgaV3 foreignObject { mask: var(--popout-status-mask); border-radius: var(--avatar-radius); }
@@ -302,7 +309,7 @@
 .headerInfo-30uryT > .profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }
 .headerInfo-30uryT > .profileBadges-2vWUYb > .profileBadgeWrapper-1rGSsp { padding-bottom: 7px; }
 
-/* Status */
+/* Statuses */
 .root-SR8cQa > .topSectionSpotify-1lI0-P, .root-SR8cQa > .topSectionPlaying-1J5E4n, .root-SR8cQa > .topSectionStreaming-1Tpf5X, .root-SR8cQa > .topSectionXbox-3fWLjS { background: var(--background-tertiary);}
 .activityProfile-2bJRaP { border-radius: 5px; margin: 0 13px 13px 13px;}
 .topSectionPlaying-1J5E4n > .headerFill-adLl4x > .activityProfile-2bJRaP { background: #7289DA; box-shadow: 0px 4px 0px #46599c;}
@@ -318,7 +325,7 @@
 .topSectionXbox-3fWLjS > .header-QKLPzZ > .actionButton-3W1xZa { background: #3a9d6f50 !important; backdrop-filter: blur(10px);}
 .tabBarContainer-1s1u-z { border-top: none; padding-left: 0;}
 
-/* Menu (infos/serveur/amis en commun)*/
+/*view profile menu*/
 .tabBarItem-1b8RUP { margin: 0 30px; width: 30px;}
 .tabBar-2MuP6- { justify-content: center;}
 .tabBar-2MuP6- > * {
@@ -333,19 +340,19 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+/* button pics*/
 [aria-controls="USER_INFO-tab"]:after { background-image:url("https://i.ibb.co/rF9Bq8s/Capture.png");}
 [aria-controls="MUTUAL_GUILDS-tab"]:after { background-image: url("https://i.ibb.co/6FcvTmQ/guild-512.png");}
 [aria-controls="MUTUAL_FRIENDS-tab"]:after { background-image:url("https://i.ibb.co/rc5DQ4n/Capture.png");}
 
-/* Réseaux sociaux */
+/* socials */
 .connectedAccount-36nQx7 {
     border: solid #151b27;
     border-width: 1.2px 1.2px 3px 1.2px;
     border-radius: 4px;
     padding: 0 20px 0 0;
 }
-
+/*guess by using colour codes?*/
 .connectedAccountIcon-3P3V6F { padding: 8px; border-radius: 4px 0 0 4px;}
 .connectedAccountName-f8AEe2 { margin-left: 13px;}
 [src="/assets/4662875160dc4c56954003ebda995414.png"] { background: #1da0f248; }
@@ -378,7 +385,7 @@
 .gameNameInput-385LoS:focus, .gameNameInput-385LoS:hover { border-color: var(--background-secondary-alt) !important; }
 .cancelButton-10XRsm { background: transparent;}
 
-/* --- ⚙️ PARAMETRE SERVEUR --- */
+/* --- ⚙️ server settings --- */
 
 /* Notification de modifications */
 .container-2VW0UT { background: var(--background-tertiary) !important; }
@@ -393,7 +400,7 @@
 .emojiInput-1aLNse { background: var(--background-secondary-alt) !important;}
 .card-FDVird:before { background: var(--background-secondary) !important; border-color: transparent !important;}
 
-/* Logs du serveur */
+/* audit log */
 .headerExpanded-CUEwZ5, .headerDefault-1wrJcN, .headerClickable-2IVFo9 { background: var(--background-secondary-alt) !important;} /* Coloration des logs */
 .auditLog-3jNbM6 { border-color: var(--background-secondary) !important;}
 .divider-1pnAR2 { display: none;}
@@ -404,10 +411,10 @@
 .card-o7rAq-, .header-146Xl5 { background: var(--background-secondary-alt); border-color: transparent !important;}
 .body-1zRX82, .cardPrimaryEditable-3KtE4g { background: var(--background-secondary); border-color: transparent !important;}
 
-/* Vue d'ensemble */
+/* overview */
 .css-3vaxre-menu { background: var(--background-secondary-alt) !important; border: 1px solid var(--background-tertiary) !important; }
 
-/* Ecran d'acceuil */
+/* homepage */
 .addChannelButton-3j20Ox, .descriptionInput-3b30C8 { background: var(--background-secondary-alt) !important; border: none;}
 
 /* Boost dans parametres */
@@ -425,10 +432,10 @@
 
 /* --- 🌺 AUTRE --- */
 
-/* Message rejoindre serveur */
+/* Message join serveur */
 .contentWrapper-3WC1ID { background: var(--background-secondary) !important;}
 
-/* Message de bienvenue */
+/* Message de welcome */
 .root-1gCeng:not(.modal-qgFCbT) { background: var(--background-secondary);}
 
 /* Exporateur de serveurs */
@@ -446,7 +453,7 @@
 /* Popout "Regarder le stream" */
 .body-Ogsp8i { background: var(--background-tertiary) !important;}
 
-/* Popout supprimer un message */
+/* delete msg popout */
 .message-2qRu38 { background: var(--background-primary) !important; }
 
 /* Infobulles */
@@ -541,8 +548,8 @@
     z-index: 1;
 }
 
-/* -- Fuck scrollbars >:( -- */
-::-webkit-scrollbar { display: none !important;}
+/* -- scrollbars-- */
+::-webkit-scrollbar { display: block !important;}
 
 /* Notes popups */
 .note-3HfJZ5 { margin-right: 0; }
@@ -573,16 +580,16 @@
 /* Barre de tchat */
 .buttons-3JBrkn { padding-right: 10px;}
 
-/* Message épinglés */
+/*pinned msgs */
 .messagesPopout-24nkyi { padding-right: 8px !important; }
 
-/* Paramètres */
+/* settings */
 .sidebar-CFHs9e { padding-right : 0; margin: 0 40px 0 20px;}
 .sidebarRegion-VFTUkN { flex: unset;}
 .contentColumn-2hrIYH, .sidebarScrollable-1qPI87+.content-1rPSz4, .customScroller-26gWhv>div, .customColumn-Rb6toI, .hero-EvfTTA { max-width: none;}
 .featuresHeader-4YwLcc { margin-left: 95px;}
 
-/* Paramètre voix & vidéo */
+/*settings de voix & vidéo */
 .userSettingsVoice-iwdUCU { width: 1480px !important;}
 .container-3PXSwK { width: auto !important;}
 
